@@ -1,0 +1,162 @@
+[
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "src/main.o",
+   "src/main.cpp"
+  ],
+  "file": "src/main.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "lib/src/imgui_demo.o",
+   "lib/src/imgui_demo.cpp"
+  ],
+  "file": "lib/src/imgui_demo.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "lib/src/imgui.o",
+   "lib/src/imgui.cpp"
+  ],
+  "file": "lib/src/imgui.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "lib/src/imgui_tables.o",
+   "lib/src/imgui_tables.cpp"
+  ],
+  "file": "lib/src/imgui_tables.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "lib/src/imgui_impl_opengl2.o",
+   "lib/src/imgui_impl_opengl2.cpp"
+  ],
+  "file": "lib/src/imgui_impl_opengl2.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "lib/src/imgui_impl_opengl3.o",
+   "lib/src/imgui_impl_opengl3.cpp"
+  ],
+  "file": "lib/src/imgui_impl_opengl3.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "lib/src/imgui_widgets.o",
+   "lib/src/imgui_widgets.cpp"
+  ],
+  "file": "lib/src/imgui_widgets.cpp"
+ },
+ {
+  "directory": "C:\\Users\\Akash Pandit\\Desktop\\glfw_imgui",
+  "arguments": [
+   "g++",
+   "-std=c++17",
+   "-O3",
+   "-s",
+   "-I./include",
+   "-I./lib/include",
+   "-L./bin",
+   "-lglfw3",
+   "-lopengl32",
+   "-lglew32",
+   "-c",
+   "-o",
+   "lib/src/imgui_draw.o",
+   "lib/src/imgui_draw.cpp"
+  ],
+  "file": "lib/src/imgui_draw.cpp"
+ }
+]
