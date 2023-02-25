@@ -1,4 +1,4 @@
-CXXFLAGS=-O3 -s -I./include -I./lib/include -L./bin -lglfw3 -lopengl32 -lglew32
+CXXFLAGS=-O3 -s -I./include -I./lib/include -L./bin -lglfw3 -lopengl32 -lglew32 -lopencv_core455 -lopencv_imgcodecs455 -lopencv_imgproc455
 SRC_DIR:=$(wildcard ./src/*.cpp)
 SRC_OBJ:=$(patsubst %.cpp,%.o,$(SRC_DIR))
 SRC_DEP:=$(patsubst %.cpp,%.d,$(SRC_DIR))
@@ -8,7 +8,7 @@ LIB_OBJ:=$(patsubst %.cpp,%.o,$(LIB_DIR))
 
 all:$(SRC_OBJ) $(LIB_OBJ)
 	@echo main.exe
-	@g++ $(SRC_OBJ) $(LIB_OBJ) $(CXXFLAGS) -o ./bin/main 
+	@g++ $(SRC_OBJ) $(LIB_OBJ) -std=c++17 $(CXXFLAGS) -o ./bin/main 
 	@./bin/main.exe
 
 %.o:%.cpp
